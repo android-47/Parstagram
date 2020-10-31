@@ -164,6 +164,28 @@
                                             <outlet property="nameLabel" destination="nnY-I7-OPP" id="2fj-PJ-27D"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddCommentCell" id="TY4-d4-txv">
+                                        <rect key="frame" x="0.0" y="449.33333206176758" width="375" height="37.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TY4-d4-txv" id="f8I-58-D5j">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="37.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFE-IN-nNi">
+                                                    <rect key="frame" x="16" y="8.0000000000000018" width="351" height="21.666666666666671"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="XFE-IN-nNi" secondAttribute="bottom" constant="8" id="G9W-2R-Fme"/>
+                                                <constraint firstAttribute="trailing" secondItem="XFE-IN-nNi" secondAttribute="trailing" constant="8" id="i2K-DC-B6c"/>
+                                                <constraint firstItem="XFE-IN-nNi" firstAttribute="top" secondItem="f8I-58-D5j" secondAttribute="top" constant="8" id="uIs-Av-jJp"/>
+                                                <constraint firstItem="XFE-IN-nNi" firstAttribute="leading" secondItem="f8I-58-D5j" secondAttribute="leading" constant="16" id="wel-b3-W9a"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
